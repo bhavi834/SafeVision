@@ -1,0 +1,15 @@
+# Core detection / compliance / Flask pipeline
+ultralytics>=8.2.0
+opencv-python-headless>=4.9.0
+numpy>=1.26.0
+pandas>=2.2.0
+flask>=3.0.0
+python-dotenv>=1.0.0
+Pillow>=10.2.0
+
+# Database (Module 7) — only needed once SAFEVISION_DB_ENABLED=true
+pymongo>=4.6.0
+
+# Alerts (Module 9) — requests powers the Telegram channel;
+# email uses smtplib from the standard library, no extra package needed
+requests>=2.31.0

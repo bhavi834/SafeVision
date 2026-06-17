@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+static/uploads/*
+!static/uploads/.gitkeep
+static/outputs/*
+!static/outputs/.gitkeep
+models/*.pt
+training/runs/
+dataset/train/
+dataset/valid/
+dataset/test/
